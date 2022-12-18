@@ -2,6 +2,7 @@ import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
+import Toybox.AntPlus;
 
 class TestWatchFaceView extends WatchUi.WatchFace {
 
@@ -24,13 +25,17 @@ class TestWatchFaceView extends WatchUi.WatchFace {
     function onUpdate(dc as Dc) as Void {
         // Get and show the current time
         var clockTime = System.getClockTime();
+        var systemStats = System.getSystemStats();
 
+        var batteryString = Lang.format("$1$%", [systemStats.battery.format("%2.0f")]);
         var hoursString = Lang.format("$1$", [clockTime.hour.format("%02d")]);
         var minutesString = Lang.format("$1$", [clockTime.min.format("%02d")]);
 
+        var batteryView = View.findDrawableById("battery") as Text;
         var hoursView = View.findDrawableById("time_hours") as Text;
         var minutesView = View.findDrawableById("time_minutes") as Text;
 
+        batteryView.setText(batteryString);
         hoursView.setText(hoursString);
         minutesView.setText(minutesString);
 

@@ -4,34 +4,39 @@
     <pcToLineNum>
         <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceApp.mc" id="1" lineNum="26" parent="globals" pc="268435460" symbol="getApp"/>
         <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceApp.mc" id="1" lineNum="27" parent="globals" pc="268435470" symbol="getApp"/>
-        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" id="2" lineNum="6" parent="globals/TestWatchFaceView" pc="268435486" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" id="5" lineNum="13" parent="globals/TestWatchFaceView" pc="268435505" symbol="onLayout"/>
-        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" id="5" lineNum="14" parent="globals/TestWatchFaceView" pc="268435507" symbol="onLayout"/>
-        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" id="7" lineNum="8" parent="globals/TestWatchFaceView" pc="268435549" symbol="initialize"/>
-        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" id="7" lineNum="9" parent="globals/TestWatchFaceView" pc="268435551" symbol="initialize"/>
-        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" id="9" lineNum="24" parent="globals/TestWatchFaceView" pc="268435570" symbol="onUpdate"/>
-        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" id="9" lineNum="26" parent="globals/TestWatchFaceView" pc="268435574" symbol="onUpdate"/>
+        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" id="2" lineNum="7" parent="globals/TestWatchFaceView" pc="268435486" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" id="5" lineNum="14" parent="globals/TestWatchFaceView" pc="268435505" symbol="onLayout"/>
+        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" id="5" lineNum="15" parent="globals/TestWatchFaceView" pc="268435507" symbol="onLayout"/>
+        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" id="7" lineNum="9" parent="globals/TestWatchFaceView" pc="268435549" symbol="initialize"/>
+        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" id="7" lineNum="10" parent="globals/TestWatchFaceView" pc="268435551" symbol="initialize"/>
+        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" id="9" lineNum="25" parent="globals/TestWatchFaceView" pc="268435570" symbol="onUpdate"/>
+        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" id="9" lineNum="27" parent="globals/TestWatchFaceView" pc="268435574" symbol="onUpdate"/>
         <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" id="9" lineNum="28" parent="globals/TestWatchFaceView" pc="268435591" symbol="onUpdate"/>
-        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" id="9" lineNum="29" parent="globals/TestWatchFaceView" pc="268435649" symbol="onUpdate"/>
-        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" id="9" lineNum="31" parent="globals/TestWatchFaceView" pc="268435707" symbol="onUpdate"/>
-        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" id="9" lineNum="32" parent="globals/TestWatchFaceView" pc="268435735" symbol="onUpdate"/>
-        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" id="9" lineNum="34" parent="globals/TestWatchFaceView" pc="268435763" symbol="onUpdate"/>
-        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" id="9" lineNum="35" parent="globals/TestWatchFaceView" pc="268435777" symbol="onUpdate"/>
-        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" id="9" lineNum="38" parent="globals/TestWatchFaceView" pc="268435791" symbol="onUpdate"/>
-        <entry filename="Rez.mc" id="10" lineNum="1" parent="globals/Rez" pc="268435816" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceApp.mc" id="11" lineNum="5" parent="globals/TestWatchFaceApp" pc="268435840" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceApp.mc" id="12" lineNum="12" parent="globals/TestWatchFaceApp" pc="268435859" symbol="onStart"/>
-        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceApp.mc" id="13" lineNum="20" parent="globals/TestWatchFaceApp" pc="268435862" symbol="getInitialView"/>
-        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceApp.mc" id="13" lineNum="21" parent="globals/TestWatchFaceApp" pc="268435864" symbol="getInitialView"/>
-        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceApp.mc" id="14" lineNum="7" parent="globals/TestWatchFaceApp" pc="268435905" symbol="initialize"/>
-        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceApp.mc" id="14" lineNum="8" parent="globals/TestWatchFaceApp" pc="268435907" symbol="initialize"/>
-        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceApp.mc" id="15" lineNum="16" parent="globals/TestWatchFaceApp" pc="268435926" symbol="onStop"/>
-        <entry filename="Rez.mc" id="16" lineNum="18" parent="globals/Rez/Layouts" pc="268435929" symbol="WatchFace"/>
-        <entry filename="Rez.mc" id="16" lineNum="20" parent="globals/Rez/Layouts" pc="268435941" symbol="WatchFace"/>
-        <entry filename="Rez.mc" id="16" lineNum="21" parent="globals/Rez/Layouts" pc="268436027" symbol="WatchFace"/>
-        <entry filename="Rez.mc" id="16" lineNum="22" parent="globals/Rez/Layouts" pc="268436113" symbol="WatchFace"/>
-        <entry filename="Rez.mc" id="16" lineNum="23" parent="globals/Rez/Layouts" pc="268436218" symbol="WatchFace"/>
-        <entry filename="Rez.mc" id="16" lineNum="25" parent="globals/Rez/Layouts" pc="268436240" symbol="WatchFace"/>
+        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" id="9" lineNum="30" parent="globals/TestWatchFaceView" pc="268435608" symbol="onUpdate"/>
+        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" id="9" lineNum="31" parent="globals/TestWatchFaceView" pc="268435666" symbol="onUpdate"/>
+        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" id="9" lineNum="32" parent="globals/TestWatchFaceView" pc="268435724" symbol="onUpdate"/>
+        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" id="9" lineNum="34" parent="globals/TestWatchFaceView" pc="268435782" symbol="onUpdate"/>
+        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" id="9" lineNum="35" parent="globals/TestWatchFaceView" pc="268435810" symbol="onUpdate"/>
+        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" id="9" lineNum="36" parent="globals/TestWatchFaceView" pc="268435838" symbol="onUpdate"/>
+        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" id="9" lineNum="38" parent="globals/TestWatchFaceView" pc="268435866" symbol="onUpdate"/>
+        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" id="9" lineNum="39" parent="globals/TestWatchFaceView" pc="268435880" symbol="onUpdate"/>
+        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" id="9" lineNum="40" parent="globals/TestWatchFaceView" pc="268435894" symbol="onUpdate"/>
+        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" id="9" lineNum="43" parent="globals/TestWatchFaceView" pc="268435908" symbol="onUpdate"/>
+        <entry filename="Rez.mc" id="10" lineNum="1" parent="globals/Rez" pc="268435933" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceApp.mc" id="11" lineNum="5" parent="globals/TestWatchFaceApp" pc="268435957" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceApp.mc" id="12" lineNum="12" parent="globals/TestWatchFaceApp" pc="268435976" symbol="onStart"/>
+        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceApp.mc" id="13" lineNum="20" parent="globals/TestWatchFaceApp" pc="268435979" symbol="getInitialView"/>
+        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceApp.mc" id="13" lineNum="21" parent="globals/TestWatchFaceApp" pc="268435981" symbol="getInitialView"/>
+        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceApp.mc" id="14" lineNum="7" parent="globals/TestWatchFaceApp" pc="268436022" symbol="initialize"/>
+        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceApp.mc" id="14" lineNum="8" parent="globals/TestWatchFaceApp" pc="268436024" symbol="initialize"/>
+        <entry filename="/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceApp.mc" id="15" lineNum="16" parent="globals/TestWatchFaceApp" pc="268436043" symbol="onStop"/>
+        <entry filename="Rez.mc" id="16" lineNum="18" parent="globals/Rez/Layouts" pc="268436046" symbol="WatchFace"/>
+        <entry filename="Rez.mc" id="16" lineNum="20" parent="globals/Rez/Layouts" pc="268436058" symbol="WatchFace"/>
+        <entry filename="Rez.mc" id="16" lineNum="21" parent="globals/Rez/Layouts" pc="268436157" symbol="WatchFace"/>
+        <entry filename="Rez.mc" id="16" lineNum="22" parent="globals/Rez/Layouts" pc="268436243" symbol="WatchFace"/>
+        <entry filename="Rez.mc" id="16" lineNum="23" parent="globals/Rez/Layouts" pc="268436329" symbol="WatchFace"/>
+        <entry filename="Rez.mc" id="16" lineNum="24" parent="globals/Rez/Layouts" pc="268436434" symbol="WatchFace"/>
+        <entry filename="Rez.mc" id="16" lineNum="26" parent="globals/Rez/Layouts" pc="268436456" symbol="WatchFace"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -44,6 +49,7 @@
         <entry id="8389345" symbol="rezId"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8389410" module="true" symbol="AntPlus"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
         <entry field="true" id="8389065" symbol="locY"/>
@@ -57,6 +63,7 @@
         <entry id="8389122" method="true" symbol="onLayout"/>
         <entry id="8389376" method="true" symbol="onEnterSleep"/>
         <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
         <entry id="5" module="true" symbol="globals/Rez/JsonData"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
         <entry id="8389377" method="true" symbol="onExitSleep"/>
@@ -82,16 +89,20 @@
     </symbolTable>
     <localVars>
         <entry arg="true" endPc="268435548" name="dc" stackId="1" startPc="268435505"/>
-        <entry arg="true" endPc="268435815" name="dc" stackId="1" startPc="268435570"/>
-        <entry endPc="268435814" name="clockTime" stackId="2" startPc="268435574"/>
-        <entry endPc="268435814" name="hoursString" stackId="3" startPc="268435574"/>
-        <entry endPc="268435814" name="minutesString" stackId="4" startPc="268435574"/>
-        <entry endPc="268435814" name="hoursView" stackId="5" startPc="268435574"/>
-        <entry endPc="268435814" name="minutesView" stackId="6" startPc="268435574"/>
-        <entry arg="true" endPc="268436276" name="dc" stackId="1" startPc="268435929"/>
-        <entry endPc="268436276" name="rez_cmp_local_text_time_hours" stackId="2" startPc="268435941"/>
-        <entry endPc="268436276" name="rez_cmp_local_text_time_minutes" stackId="3" startPc="268435941"/>
-        <entry endPc="268436276" name="rez_cmp_local_bitmap_id_emoji" stackId="4" startPc="268435941"/>
+        <entry arg="true" endPc="268435932" name="dc" stackId="1" startPc="268435570"/>
+        <entry endPc="268435931" name="clockTime" stackId="2" startPc="268435574"/>
+        <entry endPc="268435931" name="systemStats" stackId="3" startPc="268435574"/>
+        <entry endPc="268435931" name="batteryString" stackId="4" startPc="268435574"/>
+        <entry endPc="268435931" name="hoursString" stackId="5" startPc="268435574"/>
+        <entry endPc="268435931" name="minutesString" stackId="6" startPc="268435574"/>
+        <entry endPc="268435931" name="batteryView" stackId="7" startPc="268435574"/>
+        <entry endPc="268435931" name="hoursView" stackId="8" startPc="268435574"/>
+        <entry endPc="268435931" name="minutesView" stackId="9" startPc="268435574"/>
+        <entry arg="true" endPc="268436502" name="dc" stackId="1" startPc="268436046"/>
+        <entry endPc="268436502" name="rez_cmp_local_text_battery" stackId="2" startPc="268436058"/>
+        <entry endPc="268436502" name="rez_cmp_local_text_time_hours" stackId="3" startPc="268436058"/>
+        <entry endPc="268436502" name="rez_cmp_local_text_time_minutes" stackId="4" startPc="268436058"/>
+        <entry endPc="268436502" name="rez_cmp_local_bitmap_id_emoji" stackId="5" startPc="268436058"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -136,27 +147,27 @@
         <functionEntry accessMode="public" name="onHide" parent="TestWatchFaceView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435815" name="onUpdate" parent="TestWatchFaceView" startPc="268435570">
+        <functionEntry accessMode="public" endPc="268435932" name="onUpdate" parent="TestWatchFaceView" startPc="268435570">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435839" name="&lt;init&gt;" parent="Rez" startPc="268435816">
+        <functionEntry accessMode="public" endPc="268435956" name="&lt;init&gt;" parent="Rez" startPc="268435933">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435858" name="&lt;init&gt;" parent="TestWatchFaceApp" startPc="268435840">
+        <functionEntry accessMode="public" endPc="268435975" name="&lt;init&gt;" parent="TestWatchFaceApp" startPc="268435957">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435861" name="onStart" parent="TestWatchFaceApp" startPc="268435859">
+        <functionEntry accessMode="public" endPc="268435978" name="onStart" parent="TestWatchFaceApp" startPc="268435976">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435904" name="getInitialView" parent="TestWatchFaceApp" startPc="268435862">
+        <functionEntry accessMode="public" endPc="268436021" name="getInitialView" parent="TestWatchFaceApp" startPc="268435979">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435925" name="initialize" parent="TestWatchFaceApp" startPc="268435905">
+        <functionEntry accessMode="public" endPc="268436042" name="initialize" parent="TestWatchFaceApp" startPc="268436022">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435928" name="onStop" parent="TestWatchFaceApp" startPc="268435926">
+        <functionEntry accessMode="public" endPc="268436045" name="onStop" parent="TestWatchFaceApp" startPc="268436043">
             <param id="state"/>
             <documentation/>
         </functionEntry>
@@ -178,7 +189,7 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436276" name="WatchFace" parent="Layouts" startPc="268435929">
+        <functionEntry accessMode="public" endPc="268436502" name="WatchFace" parent="Layouts" startPc="268436046">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
