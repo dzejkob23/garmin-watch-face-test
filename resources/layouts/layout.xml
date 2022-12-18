@@ -1,0 +1,5 @@
+<layout id="WatchFace">
+    <label id="time_hours" x="55%" y="15%" font="Gfx.FONT_NUMBER_THAI_HOT" />
+    <label id="time_minutes" x="55%" y="45%" font="Gfx.FONT_NUMBER_THAI_HOT" />
+    <bitmap id="id_emoji" x="5%" y="25%" filename="../drawables/emoji.png" />
+</layout>

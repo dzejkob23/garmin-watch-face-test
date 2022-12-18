@@ -1,0 +1,133 @@
+[ @file = "/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc"; @line = 1; ]
+import Toybox.Graphics;
+[ @file = "/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc"; @line = 3; ]
+import Toybox.System;
+[ @file = "/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc"; @line = 4; ]
+import Toybox.WatchUi;
+[ @file = "/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc"; @line = 6; ]
+class TestWatchFaceView extends WatchUi.WatchFace{
+    [ @file = "/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc"; @line = 8; ]
+    function initialize() as Void {
+_Users_dzejkob23_Development_Personal_Garmin_garmin_watch_face_test_source_TestWatchFaceView_mc_8_26_start:
+[ "/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" 9 8 ]
+        %tmp.2 = getv ? :WatchFace;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_dzejkob23_Development_Personal_Garmin_garmin_watch_face_test_source_TestWatchFaceView_mc_8_26_stop:
+    }
+    [ @file = "/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc"; @line = 13; ]
+    function onLayout(dc as Dc) as Void {
+_Users_dzejkob23_Development_Personal_Garmin_garmin_watch_face_test_source_TestWatchFaceView_mc_13_40_start:
+[ "/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" 14 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        %tmp.4 = getv ? :Rez;
+        %tmp.5 = getv %tmp.4 :Layouts;
+        %tmp.6 = getv function %tmp.5 :WatchFace;
+        %tmp.8 = lgetv %dc;
+        %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
+        invoke %tmp.1 %tmp.2(%tmp.9);
+_Users_dzejkob23_Development_Personal_Garmin_garmin_watch_face_test_source_TestWatchFaceView_mc_13_40_stop:
+    }
+    [ @file = "/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc"; @line = 20; ]
+    function onShow() as Void {
+    }
+    [ @file = "/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc"; @line = 24; ]
+    function onUpdate(dc as Dc) as Void {
+_Users_dzejkob23_Development_Personal_Garmin_garmin_watch_face_test_source_TestWatchFaceView_mc_24_40_start:
+[ "/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" 26 8 ]
+        [ "_Users_dzejkob23_Development_Personal_Garmin_garmin_watch_face_test_source_TestWatchFaceView_mc_24_40_start" "_Users_dzejkob23_Development_Personal_Garmin_garmin_watch_face_test_source_TestWatchFaceView_mc_24_40_stop" ]
+        %clockTime.1 = local;
+        %tmp.1 = getm $.Toybox.System;
+        %tmp.2 = getv function %tmp.1 :getClockTime;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %clockTime.1 %tmp.3;
+[ "/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" 28 8 ]
+        [ "_Users_dzejkob23_Development_Personal_Garmin_garmin_watch_face_test_source_TestWatchFaceView_mc_24_40_start" "_Users_dzejkob23_Development_Personal_Garmin_garmin_watch_face_test_source_TestWatchFaceView_mc_24_40_stop" ]
+        %hoursString.2 = local;
+        %tmp.4 = getm $.Toybox.Lang;
+        %tmp.5 = getv function %tmp.4 :format;
+        %tmp.6 = "$1$";
+        %tmp.7 = newa 1;
+        %tmp.8 = lgetv %clockTime.1;
+        %tmp.9 = getv %tmp.8 :hour;
+        %tmp.10 = getv function %tmp.9 :format;
+        %tmp.11 = "%02d";
+        %tmp.12 = invoke %tmp.9 %tmp.10(%tmp.11);
+        %tmp.13 = dup %tmp.7;
+        %tmp.14 = aputv %tmp.13 0 %tmp.12;
+        %tmp.15 = invoke %tmp.4 %tmp.5(%tmp.6, %tmp.14);
+        lputv %hoursString.2 %tmp.15;
+[ "/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" 29 8 ]
+        [ "_Users_dzejkob23_Development_Personal_Garmin_garmin_watch_face_test_source_TestWatchFaceView_mc_24_40_start" "_Users_dzejkob23_Development_Personal_Garmin_garmin_watch_face_test_source_TestWatchFaceView_mc_24_40_stop" ]
+        %minutesString.3 = local;
+        %tmp.16 = getm $.Toybox.Lang;
+        %tmp.17 = getv function %tmp.16 :format;
+        %tmp.18 = "$1$";
+        %tmp.19 = newa 1;
+        %tmp.20 = lgetv %clockTime.1;
+        %tmp.21 = getv %tmp.20 :min;
+        %tmp.22 = getv function %tmp.21 :format;
+        %tmp.23 = "%02d";
+        %tmp.24 = invoke %tmp.21 %tmp.22(%tmp.23);
+        %tmp.25 = dup %tmp.19;
+        %tmp.26 = aputv %tmp.25 0 %tmp.24;
+        %tmp.27 = invoke %tmp.16 %tmp.17(%tmp.18, %tmp.26);
+        lputv %minutesString.3 %tmp.27;
+[ "/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" 31 8 ]
+        [ "_Users_dzejkob23_Development_Personal_Garmin_garmin_watch_face_test_source_TestWatchFaceView_mc_24_40_start" "_Users_dzejkob23_Development_Personal_Garmin_garmin_watch_face_test_source_TestWatchFaceView_mc_24_40_stop" ]
+        %hoursView.4 = local;
+        %tmp.29 = getv ? :View;
+        %tmp.30 = getv function %tmp.29 :findDrawableById;
+        %tmp.31 = "time_hours";
+        %tmp.32 = invoke %tmp.29 %tmp.30(%tmp.31);
+        %tmp.33 = as %tmp.32 Text;
+        lputv %hoursView.4 %tmp.33;
+[ "/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" 32 8 ]
+        [ "_Users_dzejkob23_Development_Personal_Garmin_garmin_watch_face_test_source_TestWatchFaceView_mc_24_40_start" "_Users_dzejkob23_Development_Personal_Garmin_garmin_watch_face_test_source_TestWatchFaceView_mc_24_40_stop" ]
+        %minutesView.5 = local;
+        %tmp.35 = getv ? :View;
+        %tmp.36 = getv function %tmp.35 :findDrawableById;
+        %tmp.37 = "time_minutes";
+        %tmp.38 = invoke %tmp.35 %tmp.36(%tmp.37);
+        %tmp.39 = as %tmp.38 Text;
+        lputv %minutesView.5 %tmp.39;
+[ "/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" 34 8 ]
+        %tmp.40 = lgetv %hoursView.4;
+        %tmp.41 = getv function %tmp.40 :setText;
+        %tmp.43 = lgetv %hoursString.2;
+        invoke %tmp.40 %tmp.41(%tmp.43);
+[ "/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" 35 8 ]
+        %tmp.44 = lgetv %minutesView.5;
+        %tmp.45 = getv function %tmp.44 :setText;
+        %tmp.47 = lgetv %minutesString.3;
+        invoke %tmp.44 %tmp.45(%tmp.47);
+[ "/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc" 38 8 ]
+        %tmp.49 = getv ? :View;
+        %tmp.50 = getv function %tmp.49 :onUpdate;
+        %tmp.52 = lgetv %dc;
+        invoke %tmp.49 %tmp.50(%tmp.52);
+_Users_dzejkob23_Development_Personal_Garmin_garmin_watch_face_test_source_TestWatchFaceView_mc_24_40_stop:
+    }
+    [ @file = "/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc"; @line = 44; ]
+    function onHide() as Void {
+    }
+    [ @file = "/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc"; @line = 48; ]
+    function onExitSleep() as Void {
+    }
+    [ @file = "/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc"; @line = 52; ]
+    function onEnterSleep() as Void {
+    }
+}
+[ @file = "/Users/dzejkob23/Development/Personal/Garmin/garmin-watch-face-test/source/TestWatchFaceView.mc"; @line = 1; ]
+<init> {
+}
