@@ -1,6 +1,21 @@
 <layout id="WatchFace">
-    <label id="battery" x="center" y="5%" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Gfx.FONT_TINY" />
-    <label id="time_hours" x="55%" y="15%" font="Gfx.FONT_NUMBER_THAI_HOT" />
-    <label id="time_minutes" x="55%" y="45%" font="Gfx.FONT_NUMBER_THAI_HOT" />
-    <bitmap id="id_emoji" x="5%" y="25%" filename="../drawables/emoji.png" />
+<!-- LEFT -->
+    <!-- background image -->
+    <bitmap id="backgroundEmpji" x="0%" y="32%" filename="../bitmaps/emoji.png" />
+    <!-- calendar date -->
+    <bitmap id="iconDate" x="10%" y="18%" filename="../bitmaps/calendar.png" />
+    <label id="date" x="18%" y="18%" font="Gfx.FONT_XTINY" />
+    <!-- steps -->
+    <bitmap id="iconSteps" x="20%" y="8%" filename="../bitmaps/steps.png" />
+    <label id="steps" x="29%" y="8%" font="Gfx.FONT_XTINY" />
+<!-- RIGHT -->
+    <!-- battery status -->
+    <bitmap id="iconBattery" x="53%" y="8%" filename="../bitmaps/charge.png" />
+    <label id="battery" x="60%" y="8%" font="Gfx.FONT_XTINY" />
+    <!-- calories -->
+    <bitmap id="iconCalories" x="53%" y="18%" filename="../bitmaps/calories.png" />
+    <label id="calories" x="60%" y="18%" font="Gfx.FONT_XTINY" />
+    <!-- main time -->
+    <label id="time_hours" x="53%" y="25%" font="Graphics.FONT_NUMBER_THAI_HOT" />
+    <label id="time_minutes" x="53%" y="55%" font="Graphics.FONT_NUMBER_THAI_HOT" />
 </layout>
